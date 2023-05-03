@@ -7,16 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58C7A25D800FDD73509E0DA7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C7A456C8D7355E74784684 /* SettingsView.swift */; };
+		58C7A76DDCC8FAC2E9DD2CBD /* RedditPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C7A9A0F4238F7C056DD9B9 /* RedditPost.swift */; };
+		58C7A83DC0E021779931E822 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C7AA3F368EAC88BC8F8A13 /* ContentView.swift */; };
+		58C7A92DD1F28FD4F1DF8527 /* AuthorAvatarLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C7AAC1D86CA6B2E0B777B4 /* AuthorAvatarLoader.swift */; };
+		58C7AAD3C59C28DCF4548884 /* PostPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C7A8F7F26793959C61A2F3 /* PostPreview.swift */; };
+		58C7AE218BBB486F2D068727 /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C7A7E0A6DE5B71A9C0D716 /* PostDetailView.swift */; };
 		ACEC2D402A002A4800B5410A /* GrayditApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEC2D3F2A002A4800B5410A /* GrayditApp.swift */; };
-		ACEC2D422A002A4800B5410A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEC2D412A002A4800B5410A /* ContentView.swift */; };
 		ACEC2D442A002A4900B5410A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACEC2D432A002A4900B5410A /* Assets.xcassets */; };
 		ACEC2D472A002A4900B5410A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACEC2D462A002A4900B5410A /* Preview Assets.xcassets */; };
+		ACEC2D4F2A002B1100B5410A /* SwiftUIRefresh in Frameworks */ = {isa = PBXBuildFile; productRef = ACEC2D4E2A002B1100B5410A /* SwiftUIRefresh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		58C7A456C8D7355E74784684 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		58C7A7E0A6DE5B71A9C0D716 /* PostDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
+		58C7A8F7F26793959C61A2F3 /* PostPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostPreview.swift; sourceTree = "<group>"; };
+		58C7A9A0F4238F7C056DD9B9 /* RedditPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedditPost.swift; sourceTree = "<group>"; };
+		58C7AA3F368EAC88BC8F8A13 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		58C7AAC1D86CA6B2E0B777B4 /* AuthorAvatarLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorAvatarLoader.swift; sourceTree = "<group>"; };
 		ACEC2D3C2A002A4800B5410A /* Graydit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Graydit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACEC2D3F2A002A4800B5410A /* GrayditApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrayditApp.swift; sourceTree = "<group>"; };
-		ACEC2D412A002A4800B5410A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ACEC2D432A002A4900B5410A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACEC2D462A002A4900B5410A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -26,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACEC2D4F2A002B1100B5410A /* SwiftUIRefresh in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,9 +64,14 @@
 			isa = PBXGroup;
 			children = (
 				ACEC2D3F2A002A4800B5410A /* GrayditApp.swift */,
-				ACEC2D412A002A4800B5410A /* ContentView.swift */,
 				ACEC2D432A002A4900B5410A /* Assets.xcassets */,
 				ACEC2D452A002A4900B5410A /* Preview Content */,
+				58C7A7E0A6DE5B71A9C0D716 /* PostDetailView.swift */,
+				58C7A8F7F26793959C61A2F3 /* PostPreview.swift */,
+				58C7A9A0F4238F7C056DD9B9 /* RedditPost.swift */,
+				58C7A456C8D7355E74784684 /* SettingsView.swift */,
+				58C7AAC1D86CA6B2E0B777B4 /* AuthorAvatarLoader.swift */,
+				58C7AA3F368EAC88BC8F8A13 /* ContentView.swift */,
 			);
 			path = Graydit;
 			sourceTree = "<group>";
@@ -83,6 +100,9 @@
 			dependencies = (
 			);
 			name = Graydit;
+			packageProductDependencies = (
+				ACEC2D4E2A002B1100B5410A /* SwiftUIRefresh */,
+			);
 			productName = Graydit;
 			productReference = ACEC2D3C2A002A4800B5410A /* Graydit.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +131,9 @@
 				Base,
 			);
 			mainGroup = ACEC2D332A002A4700B5410A;
+			packageReferences = (
+				ACEC2D4D2A002B1100B5410A /* XCRemoteSwiftPackageReference "SwiftUIRefresh" */,
+			);
 			productRefGroup = ACEC2D3D2A002A4800B5410A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +160,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACEC2D422A002A4800B5410A /* ContentView.swift in Sources */,
 				ACEC2D402A002A4800B5410A /* GrayditApp.swift in Sources */,
+				58C7AE218BBB486F2D068727 /* PostDetailView.swift in Sources */,
+				58C7AAD3C59C28DCF4548884 /* PostPreview.swift in Sources */,
+				58C7A76DDCC8FAC2E9DD2CBD /* RedditPost.swift in Sources */,
+				58C7A25D800FDD73509E0DA7 /* SettingsView.swift in Sources */,
+				58C7A92DD1F28FD4F1DF8527 /* AuthorAvatarLoader.swift in Sources */,
+				58C7A83DC0E021779931E822 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +367,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ACEC2D4D2A002B1100B5410A /* XCRemoteSwiftPackageReference "SwiftUIRefresh" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/timbersoftware/SwiftUIRefresh.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ACEC2D4E2A002B1100B5410A /* SwiftUIRefresh */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ACEC2D4D2A002B1100B5410A /* XCRemoteSwiftPackageReference "SwiftUIRefresh" */;
+			productName = SwiftUIRefresh;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ACEC2D342A002A4700B5410A /* Project object */;
 }
